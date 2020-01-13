@@ -13,7 +13,7 @@ This module allows a Python program to determine if a string is a keyword.
 
 .. function:: iskeyword(s)
 
-   Return ``True`` if *s* is a Python keyword.
+   Return ``True`` if *s* is a Python :keyword:`all of them TODO` https://docs.python.org/3/reference/lexical_analysis.html#keywords keyword.
 
 
 .. data:: kwlist
