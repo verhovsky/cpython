@@ -265,12 +265,9 @@ that only one process prints to standard output at a time::
 
    from multiprocessing import Process, Lock
 
-   def f(l, i):
-       l.acquire()
-       try:
+   def f(lock, i):
+       with lock:
            print('hello world', i)
-       finally:
-           l.release()
 
    if __name__ == '__main__':
        lock = Lock()
