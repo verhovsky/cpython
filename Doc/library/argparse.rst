@@ -13,18 +13,28 @@
 
 --------------
 
-.. sidebar:: Tutorial
-
-   This page contains the API reference information. For a more gentle
-   introduction to Python command-line parsing, have a look at the
-   :ref:`argparse tutorial <argparse-tutorial>`.
-
 The :mod:`argparse` module makes it easy to write user-friendly command-line
 interfaces. The program defines what arguments it requires, and :mod:`argparse`
 will figure out how to parse those out of :data:`sys.argv`.  The :mod:`argparse`
 module also automatically generates help and usage messages and issues errors
 when users give the program invalid arguments.
 
+
+.. seealso::
+
+   Module :mod:`getopt`
+      Another module for parsing command line arguments.
+
+   Module :mod:`fileinput`
+      Another module for looping over a list of files (including using ``-``
+      for stdin).
+
+   `click <https://click.palletsprojects.com/>`_
+      Third-party argument parser library using function names and decorators.
+
+   This page contains the API reference information. For a more gentle
+   introduction to Python command-line parsing, have a look at the
+   :ref:`argparse tutorial <argparse-tutorial>`.
 
 Example
 -------
