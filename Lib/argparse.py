@@ -1305,7 +1305,6 @@ class _ActionsContainer(object):
                  prefix_chars,
                  argument_default,
                  conflict_handler):
-        super(_ActionsContainer, self).__init__()
 
         self.description = description
         self.argument_default = argument_default
